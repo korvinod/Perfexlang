@@ -125,23 +125,23 @@ $lang['contract_list_start_date'] = 'Дата начала';
 $lang['contract_list_end_date']   = 'Дата окончания';
 
 # Currencies
-$lang['currencies']           = 'Currencies';
-$lang['currency']             = 'Currency';
-$lang['new_currency']         = 'New Currency';
-$lang['currency_lowercase']   = 'currency';
-$lang['base_currency_set']    = 'This is now your base currency.';
-$lang['make_base_currency']   = 'Make base currency';
-$lang['base_currency_string'] = 'Base Currency';
+$lang['currencies']           = 'Валюты';
+$lang['currency']             = 'Валюта';
+$lang['new_currency']         = 'Новая валюта';
+$lang['currency_lowercase']   = 'валюта';
+$lang['base_currency_set']    = 'Теперь это ваша валюта по-умолчанию.';
+$lang['make_base_currency']   = 'Сделать валютой по-умолчанию';
+$lang['base_currency_string'] = 'Базовая валюта';
 
-$lang['currency_list_name']   = 'Name';
-$lang['currency_list_symbol'] = 'Symbol';
+$lang['currency_list_name']   = 'Название';
+$lang['currency_list_symbol'] = 'Символ';
 
 
-$lang['currency_add_edit_description'] = 'Currency Code';
-$lang['currency_add_edit_rate']        = 'Symbol';
+$lang['currency_add_edit_description'] = 'Код валюты';
+$lang['currency_add_edit_rate']        = 'Символ';
 
-$lang['currency_edit_heading'] = 'Edit Currency';
-$lang['currency_add_heading']  = 'Add New Currency';
+$lang['currency_edit_heading'] = 'Редактировать валюту';
+$lang['currency_add_heading']  = 'Добавить новую валюту';
 
 
 # Department

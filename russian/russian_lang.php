@@ -22,16 +22,16 @@ $lang['load_more']            = 'Load More';
 $lang['cant_delete_default']  = 'Cant delete default %s';
 
 # Invoice General
-$lang['invoice_status_paid']                = 'Оплаченно';
-$lang['invoice_status_unpaid']              = 'Необлаченно';
-$lang['invoice_status_overdue']             = 'Overdue';
-$lang['invoice_status_not_paid_completely'] = 'Частично оплаченно';
+$lang['invoice_status_paid']                = 'Оплачен';
+$lang['invoice_status_unpaid']              = 'Необлачен';
+$lang['invoice_status_overdue']             = 'Просрочен';
+$lang['invoice_status_not_paid_completely'] = 'Частично оплачен';
 
 $lang['invoice_pdf_heading'] = 'INVOICE';
 
 $lang['invoice_table_item_heading']            = 'Item';
-$lang['invoice_table_quantity_heading']        = 'Qty';
-$lang['invoice_table_rate_heading']            = 'Rate';
+$lang['invoice_table_quantity_heading']        = 'Кол-во';
+$lang['invoice_table_rate_heading']            = 'Цена';
 $lang['invoice_table_tax_heading']             = 'Tax';
 $lang['invoice_table_amount_heading']          = 'Amount';
 $lang['invoice_subtotal']                      = 'Sub Total';
@@ -50,17 +50,17 @@ $lang['invoice_payments_table_date_heading']   = 'Date';
 $lang['invoice_payments_table_amount_heading'] = 'Amount';
 
 
-# Announcements
-$lang['announcement']                 = 'Announcement';
-$lang['announcement_lowercase']       = 'announcement';
-$lang['announcements']                = 'Announcements';
-$lang['announcements_lowercase']      = 'announcements';
-$lang['new_announcement']             = 'New Announcement';
-$lang['announcement_name']            = 'Subject';
-$lang['announcement_message']         = 'Message';
-$lang['announcement_show_to_staff']   = 'Show to staff';
-$lang['announcement_show_to_clients'] = 'Show to clients';
-$lang['announcement_show_my_name']    = 'Show my name';
+# Объявления
+$lang['announcement']                 = 'Объявление';
+$lang['announcement_lowercase']       = 'объявление';
+$lang['announcements']                = 'Объявления';
+$lang['announcements_lowercase']      = 'объявления';
+$lang['new_announcement']             = 'Новое объявление';
+$lang['announcement_name']            = 'Тема';
+$lang['announcement_message']         = 'Сообщение';
+$lang['announcement_show_to_staff']   = 'Показать команде';
+$lang['announcement_show_to_clients'] = 'Показывать клиенту';
+$lang['announcement_show_my_name']    = 'Показывать моё имя';
 
 # Clients
 $lang['clients']                               = 'Клиенты';

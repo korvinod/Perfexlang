@@ -21,33 +21,33 @@ $lang['error_uploading_file'] = 'Error uploading file';
 $lang['load_more']            = 'Load More';
 $lang['cant_delete_default']  = 'Cant delete default %s';
 
-# Invoice General
+# Счета главное
 $lang['invoice_status_paid']                = 'Оплачен';
 $lang['invoice_status_unpaid']              = 'Необлачен';
 $lang['invoice_status_overdue']             = 'Просрочен';
 $lang['invoice_status_not_paid_completely'] = 'Частично оплачен';
 
-$lang['invoice_pdf_heading'] = 'INVOICE';
+$lang['invoice_pdf_heading'] = 'СЧЕТ';
 
 $lang['invoice_table_item_heading']            = 'Item';
 $lang['invoice_table_quantity_heading']        = 'Кол-во';
 $lang['invoice_table_rate_heading']            = 'Цена';
 $lang['invoice_table_tax_heading']             = 'Tax';
-$lang['invoice_table_amount_heading']          = 'Amount';
-$lang['invoice_subtotal']                      = 'Sub Total';
-$lang['invoice_adjustment']                    = 'Adjustment';
-$lang['invoice_total']                         = 'Total';
-$lang['invoice_vat']                           = 'VAT Number';
-$lang['invoice_bill_to']                       = 'Bill To';
-$lang['invoice_data_date']                     = 'Invoice Date:';
-$lang['invoice_data_duedate']                  = 'Due Date:';
-$lang['invoice_received_payments']             = 'Transactions';
-$lang['invoice_no_payments_found']             = 'No Payments found for this invoice';
-$lang['invoice_note']                          = 'Note:';
-$lang['invoice_payments_table_number_heading'] = 'Payment #';
-$lang['invoice_payments_table_mode_heading']   = 'Payment Mode';
-$lang['invoice_payments_table_date_heading']   = 'Date';
-$lang['invoice_payments_table_amount_heading'] = 'Amount';
+$lang['invoice_table_amount_heading']          = 'Количество';
+$lang['invoice_subtotal']                      = 'Под итог';
+$lang['invoice_adjustment']                    = 'Корректировка';
+$lang['invoice_total']                         = 'Итого';
+$lang['invoice_vat']                           = 'Номер плательщика НДС';
+$lang['invoice_bill_to']                       = 'Плательщик';
+$lang['invoice_data_date']                     = 'Дата счета:';
+$lang['invoice_data_duedate']                  = 'Срок платежа:';
+$lang['invoice_received_payments']             = 'Операции';
+$lang['invoice_no_payments_found']             = 'Платежи не найдены для этого счета';
+$lang['invoice_note']                          = 'Заметка:';
+$lang['invoice_payments_table_number_heading'] = 'Платеж #';
+$lang['invoice_payments_table_mode_heading']   = 'Тип платежа';
+$lang['invoice_payments_table_date_heading']   = 'Дата';
+$lang['invoice_payments_table_amount_heading'] = 'Количество';
 
 
 # Объявления

@@ -107,22 +107,22 @@ $lang['clients_list_full_name']   = 'Полное имя';
 $lang['clients_list_last_login']  = 'Последний вход';
 
 # Contracts
-$lang['contracts']                = 'Contracts';
-$lang['contract']                 = 'Contract';
-$lang['new_contract']             = 'New Contract';
-$lang['contract_lowercase']       = 'contract';
-$lang['contract_start_date']      = 'Start Date';
-$lang['contract_end_date']        = 'End Date';
-$lang['contract_subject']         = 'Subject';
-$lang['contract_description']     = 'Description';
-$lang['contract_subject_tooltip'] = 'Subject is also visible to customer';
-$lang['contract_client_string']   = 'Customer';
-$lang['contract_attach']          = 'Attach document';
+$lang['contracts']                = 'Договора';
+$lang['contract']                 = 'Договор';
+$lang['new_contract']             = 'Новый договор';
+$lang['contract_lowercase']       = 'договор';
+$lang['contract_start_date']      = 'Дата начала';
+$lang['contract_end_date']        = 'Дата окончания';
+$lang['contract_subject']         = 'Тема';
+$lang['contract_description']     = 'Описание';
+$lang['contract_subject_tooltip'] = 'Тема также видна клиенту';
+$lang['contract_client_string']   = 'Клиент';
+$lang['contract_attach']          = 'Прикрепить документ';
 
-$lang['contract_list_client']     = 'Customer';
-$lang['contract_list_subject']    = 'Subject';
-$lang['contract_list_start_date'] = 'Start Date';
-$lang['contract_list_end_date']   = 'End Date';
+$lang['contract_list_client']     = 'Клиент';
+$lang['contract_list_subject']    = 'Тема';
+$lang['contract_list_start_date'] = 'Дата начала';
+$lang['contract_list_end_date']   = 'Дата окончания';
 
 # Currencies
 $lang['currencies']           = 'Currencies';

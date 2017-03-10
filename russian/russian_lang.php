@@ -4,8 +4,8 @@
 # General
 $lang['id']                   = 'ID';
 $lang['name']                 = 'Имя';
-$lang['options']              = 'Options';
-$lang['submit']               = 'Save';
+$lang['options']              = 'Настройки';
+$lang['submit']               = 'Сохранить';
 $lang['added_successfuly']    = '%s added successfully.';
 $lang['updated_successfuly']  = '%s updated successfully.';
 $lang['edit']                 = 'Редактировать %s';
@@ -17,8 +17,8 @@ $lang['close']                = 'Закрыть';
 $lang['send']                 = 'Отправить';
 $lang['cancel']               = 'Отмена';
 $lang['go_back']              = 'Назад';
-$lang['error_uploading_file'] = 'Error uploading file';
-$lang['load_more']            = 'Load More';
+$lang['error_uploading_file'] = 'Ошибка загрузки файла';
+$lang['load_more']            = 'Загрузить еще';
 $lang['cant_delete_default']  = 'Cant delete default %s';
 
 # Счета главное
@@ -81,28 +81,28 @@ $lang['client_state']                          = 'Область';
 $lang['client_password']                       = 'Пароль';
 $lang['client_password_change_populate_note']  = 'Примечание: если вы заполните эти поля, пароль будет изменен для этого контакта.';
 $lang['client_password_last_changed']          = 'Password last changed:';
-$lang['login_as_client']                       = 'Login as client';
-$lang['client_invoices_tab']                   = 'Invoices';
-$lang['contracts_invoices_tab']                = 'Contracts';
-$lang['contracts_tickets_tab']                 = 'Tickets';
-$lang['contracts_notes_tab']                   = 'Notes';
-$lang['client_invoice_number_table_heading']   = 'Invoice #';
-$lang['client_invoice_date_table_heading']     = 'Date';
+$lang['login_as_client']                       = 'Войти как клиент';
+$lang['client_invoices_tab']                   = 'Счета';
+$lang['contracts_invoices_tab']                = 'Договора';
+$lang['contracts_tickets_tab']                 = 'Тикеты';
+$lang['contracts_notes_tab']                   = 'Записи';
+$lang['client_invoice_number_table_heading']   = 'Счета #';
+$lang['client_invoice_date_table_heading']     = 'Дата';
 $lang['client_invoice_due_date_table_heading'] = 'Due Date';
-$lang['client_string_table_heading']           = 'Customer';
-$lang['client_amount_table_heading']           = 'Amount';
-$lang['client_status_table_heading']           = 'Status';
+$lang['client_string_table_heading']           = 'Клиент';
+$lang['client_amount_table_heading']           = 'Количество';
+$lang['client_status_table_heading']           = 'Статус';
 $lang['note_description']                      = 'Note description';
 
-$lang['client_string_contracts_table_heading']      = 'Customer';
-$lang['client_start_date_contracts_table_heading']  = 'Start Date';
-$lang['client_end_date_contracts_table_heading']    = 'End Date';
-$lang['client_description_contracts_table_heading'] = 'Description';
-$lang['client_do_not_send_welcome_email']           = 'Do not send welcome email';
+$lang['client_string_contracts_table_heading']      = 'Клиент';
+$lang['client_start_date_contracts_table_heading']  = 'Дата начала';
+$lang['client_end_date_contracts_table_heading']    = 'Дата окончания';
+$lang['client_description_contracts_table_heading'] = 'Описание';
+$lang['client_do_not_send_welcome_email']           = 'Не отправлять привественное письмо';
 
-$lang['clients_notes_table_description_heading'] = 'Description';
+$lang['clients_notes_table_description_heading'] = 'Описание';
 $lang['clients_notes_table_addedfrom_heading']   = 'Added From';
-$lang['clients_notes_table_dateadded_heading']   = 'Date Added';
+$lang['clients_notes_table_dateadded_heading']   = 'Дата добавления';
 $lang['clients_list_full_name']   = 'Full Name';
 $lang['clients_list_last_login']  = 'Last Login';
 

@@ -145,15 +145,15 @@ $lang['currency_add_heading']  = 'Добавить новую валюту';
 
 
 # Department
-$lang['departments']          = 'Departments';
-$lang['department']           = 'Department';
-$lang['new_department']       = 'New Department';
-$lang['department_lowercase'] = 'department';
+$lang['departments']          = 'Отделы';
+$lang['department']           = 'Отдел';
+$lang['new_department']       = 'Новый отдел';
+$lang['department_lowercase'] = 'отдел';
 
-$lang['department_name']             = 'Department Name';
-$lang['department_email']            = 'Department Email';
-$lang['department_hide_from_client'] = 'Hide from client?';
-$lang['department_list_name']        = 'Name';
+$lang['department_name']             = 'Название отдела';
+$lang['department_email']            = 'Email отдела';
+$lang['department_hide_from_client'] = 'Не показывать клиенту?';
+$lang['department_list_name']        = 'Название';
 
 # Email Templates
 $lang['email_templates']                        = 'Email шаблоны';
@@ -211,22 +211,22 @@ $lang['newsfeed_post_likes_modal_heading']                  = 'Colleagues who li
 $lang['newsfeed_comment_likes_modal_heading']               = 'Colleagues who like this comment';
 $lang['newsfeed_newsfeed_post_only_visible_to_departments'] = 'This post is only visible to the following departments: %s';
 # Invoice Items
-$lang['invoice_items']                                      = 'Invoice Items';
-$lang['invoice_item']                                       = 'Invoice Item';
-$lang['new_invoice_item']                                   = 'New Item';
-$lang['invoice_item_lowercase']                             = 'invoice item';
+$lang['invoice_items']                                      = 'Позиции счета';
+$lang['invoice_item']                                       = 'Позиция счета';
+$lang['new_invoice_item']                                   = 'Новая позиция';
+$lang['invoice_item_lowercase']                             = 'позиция счета';
 
-$lang['invoice_items_list_description'] = 'Description';
-$lang['invoice_items_list_rate']        = 'Rate';
-$lang['invoice_items_list_tax']         = 'Tax';
+$lang['invoice_items_list_description'] = 'Описание';
+$lang['invoice_items_list_rate']        = 'Тариф';
+$lang['invoice_items_list_tax']         = 'Налог';
 
-$lang['invoice_item_add_edit_description'] = 'Description';
-$lang['invoice_item_add_edit_rate']        = 'Rate';
-$lang['invoice_item_add_edit_tax']         = 'Tax';
-$lang['invoice_item_add_edit_tax_select']  = 'Select Tax';
+$lang['invoice_item_add_edit_description'] = 'Описание';
+$lang['invoice_item_add_edit_rate']        = 'Тариф';
+$lang['invoice_item_add_edit_tax']         = 'Налог';
+$lang['invoice_item_add_edit_tax_select']  = 'Выберите налог';
 
-$lang['invoice_item_edit_heading'] = 'Edit Item';
-$lang['invoice_item_add_heading']  = 'Add New Item';
+$lang['invoice_item_edit_heading'] = 'Редактировать позицию';
+$lang['invoice_item_add_heading']  = 'Нобавить новую позицию';
 
 # Invoices
 
@@ -684,12 +684,12 @@ $lang['ticket_settings_updated_successfuly_and_reassigned'] = 'Ticket settings u
 $lang['ticket_dt_subject']                                  = 'Subject';
 $lang['ticket_dt_department']                               = 'Department';
 $lang['ticket_dt_service']                                  = 'Service';
-$lang['ticket_dt_submitter']                                = 'Customer';
-$lang['ticket_dt_status']                                   = 'Status';
-$lang['ticket_dt_priority']                                 = 'Priority';
-$lang['ticket_dt_last_reply']                               = 'Last Reply';
+$lang['ticket_dt_submitter']                                = 'Клиент';
+$lang['ticket_dt_status']                                   = 'Статус';
+$lang['ticket_dt_priority']                                 = 'Приоритет';
+$lang['ticket_dt_last_reply']                               = 'Последний ответ';
 
-$lang['ticket_single_add_reply']                  = 'Add Reply';
+$lang['ticket_single_add_reply']                  = 'Добавить ответ';
 $lang['ticket_single_add_note']                   = 'Add note';
 $lang['ticket_single_other_user_tickets']         = 'Other Tickets';
 $lang['ticket_single_settings']                   = 'Settings';

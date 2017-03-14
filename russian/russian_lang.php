@@ -821,41 +821,40 @@ $lang['task']           = 'Задача';
 $lang['task_lowercase'] = 'задача';
 $lang['comment_string'] = 'Комментарий';
 
-$lang['task_marked_as_complete'] = 'Task marked as complete';
-$lang['task_follower_removed']   = 'Task follower removed successfully';
-$lang['task_assignee_removed']   = 'Task assignee removed successfully';
+$lang['task_marked_as_complete'] = 'Задание отмечено как выполненое';
+$lang['task_follower_removed']   = 'Подписка на задание успешно удалена';
+$lang['task_assignee_removed']   = 'Подписчики задания успешно удалены';
+$lang['task_no_assignees'] = 'Нет исполнителей для этой задачи';
+$lang['task_no_followers'] = 'Нет подписчиков для этой задачи';
 
-$lang['task_no_assignees'] = 'No assignee\'s for this task';
-$lang['task_no_followers'] = 'No followers for this task';
+$lang['task_list_all']            = 'Все';
+$lang['task_list_not_assigned']   = 'Не назначен';
+$lang['task_list_duedate_passed'] = 'Дата выполнения';
+$lang['tasks_dt_name']            = 'Имя';
 
-$lang['task_list_all']            = 'All';
-$lang['task_list_not_assigned']   = 'Not Assigned';
-$lang['task_list_duedate_passed'] = 'Due Date Passed';
-$lang['tasks_dt_name']            = 'Name';
+$lang['task_single_priority']               = 'Приоретет';
+$lang['task_single_start_date']             = 'Дата начала';
+$lang['task_single_due_date']               = 'Срок сдачи';
+$lang['task_single_finished']               = 'Завершённый';
+$lang['task_single_mark_as_complete']       = 'Отметить как завершенное';
+$lang['task_single_edit']                   = 'Редактировать';
+$lang['task_single_delete']                 = 'Удалить';
+$lang['task_single_assignees']              = 'Исполнители';
+$lang['task_single_assignees_select_title'] = 'Исполнители задачи';
+$lang['task_single_followers']              = 'Подписчики';
+$lang['task_single_followers_select_title'] = 'Добавить подписчиков';
+$lang['task_single_insert_media_link']      = 'Вставить ссылку для мультимедиа';
+$lang['task_single_add_new_comment']        = 'Добавить комментарий';
 
-$lang['task_single_priority']               = 'Priority';
-$lang['task_single_start_date']             = 'Start Date';
-$lang['task_single_due_date']               = 'Due Date';
-$lang['task_single_finished']               = 'Finished';
-$lang['task_single_mark_as_complete']       = 'Mark as complete';
-$lang['task_single_edit']                   = 'Edit';
-$lang['task_single_delete']                 = 'Delete';
-$lang['task_single_assignees']              = 'Assignee\'s';
-$lang['task_single_assignees_select_title'] = 'Assign task to';
-$lang['task_single_followers']              = 'Followers';
-$lang['task_single_followers_select_title'] = 'Add Followers';
-$lang['task_single_insert_media_link']      = 'Insert Media Link';
-$lang['task_single_add_new_comment']        = 'Add Comment';
-
-$lang['task_add_edit_subject']     = 'Subject';
-$lang['task_add_edit_priority']    = 'Priority';
-$lang['task_priority_low']         = 'Low';
-$lang['task_priority_medium']      = 'Medium';
-$lang['task_priority_high']        = 'High';
-$lang['task_priority_urgent']      = 'Urgent';
-$lang['task_add_edit_start_date']  = 'Start Date';
-$lang['task_add_edit_due_date']    = 'Due Date';
-$lang['task_add_edit_description'] = 'Task Description';
+$lang['task_add_edit_subject']     = 'Тема';
+$lang['task_add_edit_priority']    = 'Приоритет';
+$lang['task_priority_low']         = 'Низкий';
+$lang['task_priority_medium']      = 'Средний';
+$lang['task_priority_high']        = 'Высокий';
+$lang['task_priority_urgent']      = 'Срочно';
+$lang['task_add_edit_start_date']  = 'Дата начала';
+$lang['task_add_edit_due_date']    = 'Срок сдачи';
+$lang['task_add_edit_description'] = 'Описание задачи';
 
 # Taxes
 $lang['new_tax']       = 'New Tax';

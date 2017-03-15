@@ -2557,7 +2557,7 @@ $lang['project_note_private'] = 'Приватные записи';
 $lang['project_save_note'] = 'Сохранить запись';
 
 # Project Activity
-$lang['project_activity_created'] = 'Created the project';
+$lang['project_activity_created'] = 'Создан проект';
 $lang['project_activity_updated'] = 'Updated project';
 $lang['project_activity_removed_team_member'] = 'Removed team member';
 $lang['project_activity_added_team_member'] = 'Added new team member';

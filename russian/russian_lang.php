@@ -1519,30 +1519,30 @@ $lang['qa_new_goal']    = 'Настройка новой цели';
 $lang['qa_new_expense'] = 'Запись расходов';
 
 # Goals Tracking
-$lang['goals']                                         = 'Goals';
-$lang['goal']                                          = 'Goal';
-$lang['goals_tracking']                                = 'Goals Tracking';
-$lang['new_goal']                                      = 'New Goal';
-$lang['goal_lowercase']                                = 'goal';
-$lang['goal_start_date']                               = 'Start Date';
-$lang['goal_end_date']                                 = 'End Date';
-$lang['goal_subject']                                  = 'Subject';
-$lang['goal_description']                              = 'Description';
-$lang['goal_type']                                     = 'Goal Type';
-$lang['goal_achievement']                              = 'Achievement';
-$lang['goal_contract_type']                            = 'Contract Type';
-$lang['goal_notify_when_fail']                         = 'Notify staff members when goal failed to achieve';
-$lang['goal_notify_when_achieve']                      = 'Notify staff members when goal achieve';
-$lang['goal_progress']                                 = 'Progress';
-$lang['goal_total']                                    = 'Total: %s';
-$lang['goal_result_heading']                           = 'Goal Progress';
-$lang['goal_income_shown_in_base_currency']            = 'Total income is shown in your base currency';
-$lang['goal_notify_when_end_date_arrives']             = 'The staff members will be notified when the end date arrives (Requires CRON).';
-$lang['goal_staff_members_notified_about_achievement'] = 'The staff members are notified about this goal achievement';
-$lang['goal_staff_members_notified_about_failure']     = 'Staff member are notified about the failure';
-$lang['goal_notify_staff_manualy']                     = 'Notify Staff Members Manually';
-$lang['goal_notify_staff_notified_manualy_success']    = 'The staff members are notified about this goal result';
-$lang['goal_notify_staff_notified_manualy_fail']       = 'Failed to notify staff members about this goal result';
+$lang['goals']                                         = 'Цели';
+$lang['goal']                                          = 'Цель';
+$lang['goals_tracking']                                = 'Отслеживание целей';
+$lang['new_goal']                                      = 'Новая цель';
+$lang['goal_lowercase']                                = 'цель';
+$lang['goal_start_date']                               = 'Дата начала';
+$lang['goal_end_date']                                 = 'Дата окончания';
+$lang['goal_subject']                                  = 'Тема';
+$lang['goal_description']                              = 'Описание';
+$lang['goal_type']                                     = 'Тип цели';
+$lang['goal_achievement']                              = 'Достижение';
+$lang['goal_contract_type']                            = 'Тип договора';
+$lang['goal_notify_when_fail']                         = 'Уведомлять сотрудников о достижении цели';
+$lang['goal_notify_when_achieve']                      = 'Уведомить сотрудников о достижении цели';
+$lang['goal_progress']                                 = 'Прогресс';
+$lang['goal_total']                                    = 'Всего: %s';
+$lang['goal_result_heading']                           = 'Прогресс цели';
+$lang['goal_income_shown_in_base_currency']            = 'Общая сумма дохода показана в вашей базовой валюте';
+$lang['goal_notify_when_end_date_arrives']             = 'Сотрудники будут уведомлены о прибытии даты окончания (требуется CRON).';
+$lang['goal_staff_members_notified_about_achievement'] = 'Сотрудникам сообщается об этом достижении цели';
+$lang['goal_staff_members_notified_about_failure']     = 'Сотрудник уведомлен об ошибке';
+$lang['goal_notify_staff_manualy']                     = 'Уведомлять сотрудников вручную';
+$lang['goal_notify_staff_notified_manualy_success']    = 'Сотрудникам сообщается об этом результате цели';
+$lang['goal_notify_staff_notified_manualy_fail']       = 'Не удалось уведомить сотрудников об этом результате цели';
 
 $lang['goal_achieved'] = 'Достигнуто';
 $lang['goal_failed']   = 'Сбой';
@@ -1673,128 +1673,125 @@ $lang['estimate_table_item_description']         = 'Описание';
 # Version 1.0.6
 # Invoices
 # Currencies
-$lang['cant_delete_base_currency'] = 'You cant delete the base currency. You need to assign new base currency the delete this.';
-$lang['invoice_copy']              = 'Copy Invoice';
-$lang['invoice_copy_success']      = 'Invoice copied successfully';
-$lang['invoice_copy_fail']         = 'Failed to copy invoice';
-$lang['invoice_due_after_help']    = 'Set zero to avoid calculation';
+$lang['cant_delete_base_currency'] = 'Вы не можете удалить базовую валюту. Вам нужно назначить новую базовую валюту для удаления этой.';
+$lang['invoice_copy']              = 'Копировать счет';
+$lang['invoice_copy_success']      = 'Счет успешно скопирован';
+$lang['invoice_copy_fail']         = 'Не удалось скопировать счет';
+$lang['invoice_due_after_help']    = 'Установите ноль, чтобы избежать вычисления';
 
-$lang['show_shipping_on_invoice'] = 'Show shipping details in invoice';
+$lang['show_shipping_on_invoice'] = 'Показать сведения о доставке в счете';
 
 # Estimates
-$lang['show_shipping_on_estimate']         = 'Show shipping details in estimate';
-$lang['is_invoiced_estimate_delete_error'] = 'This estimate is invoiced. You cant delete the estimate';
+$lang['show_shipping_on_estimate']         = 'Показать данные о доставке в смету';
+$lang['is_invoiced_estimate_delete_error'] = 'По этой смете выставлен счет. Вы не можете удалить смету';
 
 # Customers & Invoices / Estimates
-$lang['ship_to']                  = 'Ship to';
-$lang['customer_profile_details'] = 'Customer Details';
-$lang['billing_shipping']         = 'Billing & Shipping';
-$lang['billing_address']          = 'Billing Address';
-$lang['shipping_address']         = 'Shipping Address';
+$lang['ship_to']                  = 'Адрес получателя';
+$lang['customer_profile_details'] = 'Сведения о клиенте';
+$lang['billing_shipping']         = 'Оплата и доставка';
+$lang['billing_address']          = 'Платежный адрес';
+$lang['shipping_address']         = 'Адрес доставки';
 
-$lang['billing_street']  = 'Street';
-$lang['billing_city']    = 'City';
-$lang['billing_state']   = 'State';
-$lang['billing_zip']     = 'Zip Code';
-$lang['billing_country'] = 'Country';
+$lang['billing_street']  = 'Улица';
+$lang['billing_city']    = 'Город';
+$lang['billing_state']   = 'Область';
+$lang['billing_zip']     = 'Почтовый индекс';
+$lang['billing_country'] = 'Страна';
 
-$lang['shipping_street']                    = 'Street';
-$lang['shipping_city']                      = 'City';
-$lang['shipping_state']                     = 'State';
-$lang['shipping_zip']                       = 'Zip Code';
-$lang['shipping_country']                   = 'Country';
-$lang['get_shipping_from_customer_profile'] = 'Get shipping details from customer profile';
+$lang['shipping_street']                    = 'Улица';
+$lang['shipping_city']                      = 'Город';
+$lang['shipping_state']                     = 'Область';
+$lang['shipping_zip']                       = 'Почтовый индекс';
+$lang['shipping_country']                   = 'Страна';
+$lang['get_shipping_from_customer_profile'] = 'Получить данные о доставке из профиля клиента';
 
 # Customer
-$lang['customer_file_from']                                    = 'Showing from %s';
-$lang['customer_default_currency']                             = 'Default Currency';
-$lang['customer_no_attachments_found']                         = 'No attachments found';
-$lang['customer_update_address_info_on_invoices']              = 'Update the shipping/billing info on all previous invoices/estimates';
-$lang['customer_update_address_info_on_invoices_help']         = 'If you check this field shipping and billing info will be updated to all invoices and estimates. Note: Invoices with status paid won\'t be affected.';
-$lang['setup_google_api_key_customer_map']                     = 'Setup google api key in order to view to customer map';
-$lang['customer_attachments_file']                             = 'File';
-$lang['client_send_set_password_email']                        = 'Send SET password email';
-$lang['customer_billing_same_as_profile']                      = 'Same as Customer Info';
-$lang['customer_billing_copy']                                 = 'Copy Billing Address';
-$lang['customer_map']                                          = 'Map';
-$lang['set_password_email_sent_to_client']                     = 'Email to set password is successfully sent to contact';
-$lang['set_password_email_sent_to_client_and_profile_updated'] = 'Profile updated and email to set password is successfully sent to contact';
-$lang['customer_attachments']                                  = 'Files';
-$lang['customer_longitude']                                    = 'Longitude (Google Maps)';
-$lang['customer_latitude']                                     = 'Latitude (Google Maps)';
+$lang['customer_file_from']                                    = 'Показ от %s';
+$lang['customer_default_currency']                             = 'Валюта по умолчанию';
+$lang['customer_no_attachments_found']                         = 'Вложения не найдены';
+$lang['customer_update_address_info_on_invoices']              = 'Обновление информации о доставке / выставлении счетов на все предыдущие Счета / сметы';
+$lang['customer_update_address_info_on_invoices_help']         = 'Если вы отметите это поле, доставка и информация о биллинге будут обновлены для всех счетов и смет. Примечание: Счета с оплаченным статусом не будут затронуты.';
+$lang['setup_google_api_key_customer_map']                     = 'Настройка Google ключ API для того, чтобы посмотреть на карте клиента';
+$lang['customer_attachments_file']                             = 'Файлы';
+$lang['client_send_set_password_email']                        = 'Отправить установленный пароль по электронной почте';
+$lang['customer_billing_same_as_profile']                      = 'Информация о клиенте';
+$lang['customer_billing_copy']                                 = 'Копировать платежный адрес';
+$lang['customer_map']                                          = 'Карта';
+$lang['set_password_email_sent_to_client']                     = 'Письмо для установки пароля успешно отправленно контакту';
+$lang['set_password_email_sent_to_client_and_profile_updated'] = 'Профиль обновлен, чтобы установить пароль,просмотрите свою электронную почту';
+$lang['customer_attachments']                                  = 'Файлы';
+$lang['customer_longitude']                                    = 'Долгота (Карты Google)';
+$lang['customer_latitude']                                     = 'Широта (Google Maps)';
 
 # Authentication
-$lang['admin_auth_set_password']          = 'Password';
-$lang['admin_auth_set_password_repeat']   = 'Repeat Password';
-$lang['admin_auth_set_password_heading']  = 'Set Password';
-$lang['password_set_email_subject']       = 'Set new password on %s';
+$lang['admin_auth_set_password']          = 'Пароль';
+$lang['admin_auth_set_password_repeat']   = 'Повторите пароль';
+$lang['admin_auth_set_password_heading']  = 'Установить пароль';
+$lang['password_set_email_subject']       = 'Установить новый пароль %s';
 # General
-$lang['apply']                            = 'Apply';
+$lang['apply']                            = 'Применить';
 $lang['department_calendar_id']           = 'Google Calendar ID';
-$lang['kan_ban_string']                   = 'Kan Ban';
-$lang['localization_default_language']    = 'Default Language';
-$lang['system_default_string']            = 'System Default';
-$lang['advanced_options']                 = 'Advanced Options';
+$lang['kan_ban_string']                   = 'KAN BAN';
+$lang['localization_default_language']    = 'Язык по умолчанию';
+$lang['system_default_string']            = 'Система по умолчанию';
+$lang['advanced_options']                 = 'Расширенные опции';
 # Expenses
-$lang['expense_list_invoice']             = 'Invoiced';
-$lang['expense_list_billed']              = 'Billed';
-$lang['expense_list_unbilled']            = 'Not Invoiced';
+$lang['expense_list_invoice']             = 'Счет';
+$lang['expense_list_billed']              = 'Выставленный счет';
+$lang['expense_list_unbilled']            = 'Нет счетов';
 # Leads
-$lang['lead_merge_custom_field']          = 'Merge as custom field';
-$lang['lead_merge_custom_field_existing'] = 'Merge with database field';
-$lang['lead_dont_merge_custom_field']     = 'Do not merge';
-$lang['no_lead_notes_found']              = 'No lead notes found';
-$lang['leads_view_list']                  = 'List';
-$lang['lost_leads']                       = 'Lost Leads';
-$lang['junk_leads']                       = 'Junk Leads';
-$lang['lead_mark_as_lost']                = 'Mark as lost';
-$lang['lead_unmark_as_lost']              = 'Unmark Lead as lost';
-$lang['lead_marked_as_lost']              = 'Lead marked as lost successfully';
-$lang['lead_unmarked_as_lost']            = 'Lead unmarked as lost successfully';
-$lang['leads_status_color']               = 'Color';
-
-$lang['lead_mark_as_junk']     = 'Mark as junk';
-$lang['lead_unmark_as_junk']   = 'Unmark Lead as junk';
-$lang['lead_marked_as_junk']   = 'Lead marked as junk successfully';
-$lang['lead_unmarked_as_junk'] = 'Lead unmarked as junk successfully';
-
-$lang['lead_not_found']                                                      = 'Lead Not Found';
-$lang['lead_lost']                                                           = 'Lost';
-$lang['lead_junk']                                                           = 'Junk';
-$lang['leads_not_assigned']                                                  = 'Not Assigned';
+$lang['lead_merge_custom_field']          = 'Объединить в качестве настраиваемого поля';
+$lang['lead_merge_custom_field_existing'] = 'Слияние с полем базы данных';
+$lang['lead_dont_merge_custom_field']     = 'Не объединяйте';
+$lang['no_lead_notes_found']              = 'Заметки не найдены';
+$lang['leads_view_list']                  = 'Список';
+$lang['lost_leads']                       = 'Утраченные потенциальные клиенты';
+$lang['junk_leads']                       = 'Нежелательный клиент';
+$lang['lead_mark_as_lost']                = 'Отметить как потерянное';
+$lang['lead_unmark_as_lost']              = 'Снять отметку, как потерянный';
+$lang['lead_marked_as_lost']              = 'Клиент отмечен как "Потерянный" успешно ';
+$lang['lead_unmarked_as_lost']            = 'Метка "Потерянный" снята успешно';
+$lang['leads_status_color']               = 'Цвет';
+$lang['lead_mark_as_junk']     = 'Отметить как спам';
+$lang['lead_unmark_as_junk']   = 'Снять отметку как спам';
+$lang['lead_marked_as_junk']   = 'Клиент, помеченный как спам, успешно';
+$lang['lead_unmarked_as_junk'] = 'Отметка "Спам-клиент" снята';
+$lang['lead_not_found']                                                      = 'Лид не найден';
+$lang['lead_lost']                                                           = 'Потерянный';
+$lang['lead_junk']                                                           = 'Спам';
+$lang['leads_not_assigned']                                                  = 'Не назначен';
 # Contacts
-$lang['contract_not_visible_to_client']                                      = 'Hide from customer';
-$lang['contract_edit_overview']                                              = 'Contract Overview';
-$lang['contract_attachments']                                                = 'Attachments';
+$lang['contract_not_visible_to_client']                                      = 'Скрыть от клиента';
+$lang['contract_edit_overview']                                              = 'Обзор договоров';
+$lang['contract_attachments']                                                = 'Вложения';
 # Tasks
-$lang['task_view_make_public']                                               = 'Make public';
-$lang['task_is_private']                                                     = 'Private Task';
-$lang['task_finished']                                                       = 'Finished';
-$lang['task_single_related']                                                 = 'Related';
-$lang['task_unmark_as_complete']                                             = 'Unmark as complete';
-$lang['task_unmarked_as_complete']                                           = 'Task unmarked as complete';
-$lang['task_relation']                                                       = 'Related';
-$lang['task_public']                                                         = 'Public';
-$lang['task_public_help']                                                    = 'If you set this task to public will be visible for all staff members. Otherwise will be only visible to members who are assignee\'s,followers,creator or administrators';
+$lang['task_view_make_public']                                               = 'Опубликовать';
+$lang['task_is_private']                                                     = 'Частная задача';
+$lang['task_finished']                                                       = 'Законченный';
+$lang['task_single_related']                                                 = 'Связанные';
+$lang['task_unmark_as_complete']                                             = 'Снять отметку как завершенную';
+$lang['task_unmarked_as_complete']                                           = 'Задача, не отмеченная как завершенная';
+$lang['task_relation']                                                       = 'связанные';
+$lang['task_public']                                                         = 'Общественный';
+$lang['task_public_help']                                                    = 'Если вы поставите эту задачу публичной, она станет видимой для всех сотрудников. В противном случае будут видны только члены, которые являются исполнителями, подписчиками, создателями или администраторами';
 # Settings
-$lang['settings_general_favicon']                                            = 'Favicon';
-$lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Output client PDF documents from admin area in client language';
-$lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'If this options is set to yes and eq. the system default language is English and client have setup language french the pdf documents will be outputted in the client language';
-$lang['settings_cron_surveys']                                               = 'Surveys';
-$lang['settings_default_tax']                                                = 'Default Tax';
-$lang['setup_calendar_by_departments']                                       = 'Setup calendar by Departments';
-$lang['settings_calendar']                                                   = 'Calendar';
-$lang['settings_sales_invoice_due_after']                                    = 'Invoice due after (days)';
+$lang['settings_general_favicon']                                            = 'Значок';
+$lang['settings_output_client_pdfs_from_admin_area_in_client_language']      = 'Вывод клиентских PDF-документов из области администрирования на языке клиента';
+$lang['settings_output_client_pdfs_from_admin_area_in_client_language_help'] = 'Если для этой опции установлено значение yes и eq. Системный язык по умолчанию - английский, а у клиента есть язык настройки french pdf документы будут выводиться на клиентском языке';
+$lang['settings_cron_surveys']                                               = 'Опросы';
+$lang['settings_default_tax']                                                = 'Налог по умолчанию';
+$lang['setup_calendar_by_departments']                                       = 'Настройка календаря по отделам';
+$lang['settings_calendar']                                                   = 'Календарь';
+$lang['settings_sales_invoice_due_after']                                    = 'Счет через (дней)';
 $lang['settings_google_api']                                                 = 'Google API Key';
 $lang['settings_gcal_main_calendar_id']                                      = 'Google Calendar ID';
-$lang['settings_gcal_main_calendar_id_help']                                 = 'This is the main company calendar. All events from this calendar will be shown. If you want to specify a calendar based on departments you can add in the department Google Calendar ID.';
-
-$lang['show_on_calendar']                  = 'Show on Calendar';
-$lang['show_invoices_on_calendar']         = 'Invoices';
-$lang['show_estimates_on_calendar']        = 'Estimates';
-$lang['show_contracts_on_calendar']        = 'Contracts';
-$lang['show_tasks_on_calendar']            = 'Tasks';
-$lang['show_customer_reminders_on_calendar'] = 'Customer Reminders';
+$lang['settings_gcal_main_calendar_id_help']                                 = 'Это основной календарь компании. Будут показаны все события из этого календаря. Если вы хотите указать календарь на основе отделов, вы можете добавить в отдел Google Calendar ID.';
+$lang['show_on_calendar']                  = 'Показать в календаре';
+$lang['show_invoices_on_calendar']         = 'Счета';
+$lang['show_estimates_on_calendar']        = 'Оценки';
+$lang['show_contracts_on_calendar']        = 'Договора';
+$lang['show_tasks_on_calendar']            = 'Задачи';
+$lang['show_customer_reminders_on_calendar'] = 'Памятки по работе с клиентами';
 
 # Leads
 $lang['copy_custom_fields_convert_to_customer']                      = 'Copy custom fields to customer profile';

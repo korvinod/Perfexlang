@@ -231,7 +231,7 @@ $lang['invoice_item_add_heading']  = 'Нобавить новую позицию
 
 
 $lang['invoices']                      = 'Счета';
-$lang['invoice']                      = 'выставленный счет';
+$lang['invoice']                      = 'Счет';
 $lang['invoice_lowercase']              = 'выставленный счет';
 $lang['create_new_invoice']             = 'Создать новый счет';
 $lang['view_invoice']                   = 'Посмотреть счет';
@@ -633,7 +633,7 @@ $lang['als_activity_log_submenu']  = 'Журнал активности';
 # Admin Customizer Sidebar
 $lang['acs_tickets']                           = 'Тикеты';
 $lang['acs_ticket_priority_submenu']           = 'Приоритет';
-$lang['acs_ticket_statuses_submenu']           = 'статус';
+$lang['acs_ticket_statuses_submenu']           = 'Cтатус';
 $lang['acs_ticket_predefined_replies_submenu'] = 'Шаблоны ответов';
 $lang['acs_ticket_services_submenu']           = 'Сервисы';
 $lang['acs_departments']                       = 'Отделы';
@@ -1478,7 +1478,7 @@ $lang['contract_value_tooltip']         = 'Будет использоватьс
 $lang['contract_trash_tooltip']         = 'Если вы добавляете договор в корзину, не показываетесь на стороне клиента, не включаетесь в график и другую статистику, а также по умолчанию выигрываете, когда будете перечислять все Договоры.';
 $lang['contract_summary_active']              = 'Активный';
 $lang['contract_renew_heading']               = 'Возобновить договор';
-$lang['contract_summary_heading']             = 'Резюме договора';
+$lang['contract_summary_heading']             = 'Сводка по договорам';
 $lang['contract_summary_expired']             = 'Срок действия истек';
 $lang['contract_summary_about_to_expire']     = 'Срок действия истекает';
 $lang['contract_summary_recently_added']      = 'Недавно добавленный';
@@ -1770,8 +1770,8 @@ $lang['task_finished']                                                       = '
 $lang['task_single_related']                                                 = 'Связанные';
 $lang['task_unmark_as_complete']                                             = 'Снять отметку как завершенную';
 $lang['task_unmarked_as_complete']                                           = 'Задача, не отмеченная как завершенная';
-$lang['task_relation']                                                       = 'связанные';
-$lang['task_public']                                                         = 'Общественный';
+$lang['task_relation']                                                       = 'Cвязанные';
+$lang['task_public']                                                         = 'Публичная';
 $lang['task_public_help']                                                    = 'Если вы поставите эту задачу публичной, она станет видимой для всех сотрудников. В противном случае будут видны только члены, которые являются исполнителями, подписчиками, создателями или администраторами';
 # Settings
 $lang['settings_general_favicon']                                            = 'Значок';
@@ -1820,7 +1820,7 @@ $lang['lead_email_connection_ok']                                    = 'IMAP С�
 $lang['lead_email_connection_not_ok']                                = 'IMAP Соединение не в порядке';
 $lang['lead_email_activity']                                         = 'E-mail активность';
 $lang['leads_email_integration_notify_roles']                        = 'Роли для уведомления';
-$lang['leads_email_integration_notify_staff']                        = 'Сотрудники должны уведомить';
+$lang['leads_email_integration_notify_staff']                        = 'Уведомление сотрудникам';
 $lang['lead_public']                                                 = 'Публичный';
 # Knowledge Base
 
@@ -2490,7 +2490,7 @@ $lang['project_timesheet_time_spend']            = 'Время потрачен�
 $lang['project_timesheet_task']            = 'Задача';
 $lang['project_invoices']                = 'Счета';
 $lang['total_logged_hours_by_staff']            = 'Общее время регистрации';
-$lang['invoice_project']            = 'Проект счета';
+$lang['invoice_project']            = 'Счет проекта';
 $lang['invoice_project_info']            = 'Информация о счете проекта';
 $lang['invoice_project_data_single_line']            = 'Одна линия';
 $lang['invoice_project_data_task_per_item']            = 'Задача для элемента';
@@ -2821,7 +2821,7 @@ $lang['task_not_finished_on_time_indicator'] = 'No';
 $lang['task_filter_fetch_month_by'] = 'Fetch month from';
 $lang['filter'] = 'Filter';
 $lang['task_filter_detailed_all_months'] = 'All Months';
-$lang['kb_article_slug'] = 'Slug';
+$lang['kb_article_slug'] = 'Слаг';
 
 # Version 1.1.7
 $lang['email_template_ticket_warning'] = 'If ticket is imported with email piping and the contact does not exists in the CRM the fields won\'t be replaced.';
@@ -2992,7 +2992,7 @@ $lang['task_assigned_from'] = 'This task is assigned to you by %s';
 $lang['auto_check_for_new_notifications'] = 'Auto check for new notifications (Seconds - Set 0 to disable)';
 $lang['recurring_ends_on'] = 'Ends On (Leave blank for never)';
 $lang['new_note'] = 'New Note';
-$lang['my_tickets_assigned'] = 'Tickets assigned to me';
+$lang['my_tickets_assigned'] = 'Тикеты назначены мне';
 $lang['filter_by_assigned'] = 'By Assigned Member';
 $lang['staff_stats_total_logged_time'] = 'Total Logged Time';
 $lang['staff_stats_last_month_total_logged_time'] = 'Last Month Logged Time';
@@ -3286,8 +3286,8 @@ $lang['file_date_uploaded'] = 'Date Uploaded';
 $lang['allow_contact_to_delete_files'] = 'Allow contacts to delete own files uploaded from customers area';
 $lang['file'] = 'File';
 $lang['customer_contact_person_only_one_allowed'] = 'Only 1 contact is allowed when the company field is not filled. The system will cast this customer as person';
-$lang['web_to_lead'] = 'Web to Lead';
-$lang['web_to_lead_form'] = 'Web to Lead Form';
+$lang['web_to_lead'] = 'Веб для Лидов';
+$lang['web_to_lead_form'] = 'Веб форма для Лидов';
 $lang['new_form'] = 'New Form';
 $lang['form_name'] = 'Form Name';
 $lang['cf_option_in_use'] = 'An option you removed is in use and cant be removed. The option is auto appended to the existing options.';
